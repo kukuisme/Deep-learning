@@ -31,8 +31,8 @@ for i in range(1, 11):
     # 行矩陣相乘
     if len(matrices) > 1:
         result = matrices[0]  # 初始化結果為第一個矩陣
-        top_left_values.append(result[0, 0])  # 記錄最左上角值
-        bottom_right_values.append(result[-1, -1])  # 記錄最右下角值
+    #    top_left_values.append(result[0, 0])  # 記錄最左上角值
+    #    bottom_right_values.append(result[-1, -1])  # 記錄最右下角值
         
         for j in range(1, len(matrices)):
             if result.shape[1] == matrices[j].shape[0]:  # 檢查矩陣乘法條件
